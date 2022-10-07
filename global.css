@@ -1,0 +1,21 @@
+:root {
+  /* fonts */
+  --font-open-sans: "Open Sans";
+  --font-inter: Inter;
+  --font-pretty-magnolia: "magnolia";
+
+  /* font sizes */
+  --font-size-xs: 14px;
+  --font-size-sm: 16px;
+  --font-size-base: 17px;
+  --font-size-lg: 26px;
+  --font-size-xl: 50px;
+
+  /* Colors */
+  --color-gray-100: #ebf8ff;
+  --color-gray-200: #d6d6d6;
+  --color-gray-300: #535353;
+  --color-teal: #006b8b;
+  --color-white: #fff;
+  --color-black: #000;
+}
