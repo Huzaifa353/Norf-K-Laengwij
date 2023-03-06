@@ -1,0 +1,49 @@
+:root {
+    /* fonts */
+    --font-open-sans: "Open Sans";
+    --font-pretty-magnolia: "magnolia";
+    --font-inter: Inter;
+    --font-allan: Allan;
+    --font-amatic-sc: "magnolia";
+    --font-akaya-kanadaka: "Akaya Kanadaka";
+    --font-akaya-telivigala: "Akaya Telivigala";
+  
+    /* font sizes */
+    --font-size-2xs: 14px;
+    --font-size-xs: 15px;
+    --font-size-sm: 16px;
+    --font-size-base: 17px;
+    --font-size-lg: 26px;
+    --font-size-xl: 46px;
+    --font-size-2xl: 47px;
+    --font-size-3xl: 50px;
+    --font-size-4xl: 53px;
+  
+    /* Colors */
+    --color-teal: #006b8b;
+    --color-teal-100: #00abd7;
+    --color-teal-200: #006b8b;
+    --color-gray-100: #ebf8ff;
+    --color-gray-200: #d6d6d6;
+    --color-gray-300: #565656;
+    --color-gray-400: #535353;
+    --color-gray-500: #484949;
+    --color-white: #fff;
+    --color-black: #000;
+    --color-indigo: #2b559f;
+  
+    /* border radiuses */
+    --br-sm: 10px;
+    --br-md: 20px;
+    --br-lg: 50px;
+  }
+  
+  @font-face {
+    font-family: magnolia;
+    src: url('../fonts/Pretty\ Magnolia.ttf');
+  }
+  
+  .btn:hover {
+    opacity: 90% !important;
+  }
+  
