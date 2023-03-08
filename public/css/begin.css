@@ -1,0 +1,163 @@
+body {
+    margin: 0;
+    line-height: normal;
+  }
+  .bg-img-icon1 {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 44.51%;
+    right: -6.18%;
+    bottom: -44.51%;
+    left: 6.18%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    object-fit: cover;
+  }
+  .bg-mask-div1 {
+    position: absolute;
+    height: 45.49%;
+    width: 89.53%;
+    top: 44.51%;
+    right: 6.35%;
+    bottom: 10%;
+    left: 4.12%;
+    background-color: var(--color-teal-200);
+    opacity: 0.8;
+  }
+  .bg-div1 {
+    position: absolute;
+    min-height: 219.51%;
+    width: 116.5%;
+    top: -97.71%;
+    right: -9.3%;
+    bottom: -21.8%;
+    left: -7.2%;
+  }
+  .sign-in-box-div1 {
+    position: absolute;
+    top: 12.82px;
+    right: 0;
+    border-radius: var(--br-lg);
+    background-color: var(--color-white);
+    width: 100px;
+    height: 32.94px;
+  }
+  .sign-in-div1 {
+    position: absolute;
+    top: 0;
+    right: 28px;
+    line-height: 57px;
+    font-weight: 600;
+    display: inline-block;
+  }
+  .sign-in-a1 {
+    text-decoration: none;
+    position: absolute;
+    top: 19px;
+    right: 56px;
+    width: 100px;
+    height: 57px;
+    color: inherit;
+  }
+  .company-logo1,
+  .logo-img-icon1 {
+    position: absolute;
+    width: 40px;
+    height: 38px;
+  }
+  .logo-img-icon1 {
+    top: 0;
+    left: 0;
+    object-fit: cover;
+  }
+  .company-logo1 {
+    text-decoration: none;
+    top: 29px;
+    left: 62px;
+  }
+  .profile-pic-icon {
+    position: absolute;
+    top: 0;
+    left: calc(50% - 49.5px);
+    width: 100px;
+    height: 100px;
+  }
+  .being-a-beginner-its-just-as,
+  .lets-go-on {
+    margin: 0;
+    position: absolute;
+    line-height: 86px;
+    display: inline-block;
+  }
+  .lets-go-on {
+    top: 114px;
+    text-align: center;
+    width: 100%;
+    padding: 0 50px;
+    box-sizing: border-box;
+    font-size: inherit;
+    font-weight: 400;
+    font-family: inherit;
+  }
+  .being-a-beginner-its-just-as {
+    top: 200px;
+    text-align: center;
+    width: 100%;
+    padding: 0 50px;
+    box-sizing: border-box;
+    font-size: 20px;
+    font-family: var(--font-open-sans);
+    line-height: 30px;
+  }
+  .btn-box-div2 {
+    position: absolute;
+    top: 6px;
+    left: calc(50% - 166px);
+    border-radius: var(--br-md);
+    background-color: var(--color-white);
+    width: 332px;
+    height: 73.33px;
+  }
+  .im-not-sure { 
+    position: relative;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 2px;
+    box-sizing: border-box;
+  }
+  .btn-a {
+    text-decoration: none;
+    position: absolute;
+    top: 277px;
+    left: calc(50% - 165.5px);
+    width: 332px;
+    height: 86px;
+    font-size: var(--font-size-2xl);
+    color: var(--color-teal-200);
+  }
+  .body-div1 {
+    position: relative;
+    display: flex;
+    margin-top: 170px;
+    width: auto;
+    height: 363px;
+    font-size: var(--font-size-4xl);
+    color: var(--color-white);
+    font-family: var(--font-amatic-sc);
+  }
+  .start-div {
+    position: relative;
+    background-color: var(--color-teal-200);
+    width: 100%;
+    min-height: 100vh;
+    overflow: hidden;
+    text-align: left;
+    font-size: var(--font-size-2xs);
+    color: var(--color-teal-100);
+    font-family: var(--font-open-sans);
+  }
+  

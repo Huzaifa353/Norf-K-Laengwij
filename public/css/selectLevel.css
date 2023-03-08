@@ -1,0 +1,120 @@
+body {
+    margin: 0;
+    line-height: normal;
+  }
+  
+  .we-will-create-a-course-suited,
+  .what-is-your-norfk-level {
+    margin: 0;
+    position: absolute;
+    line-height: 86px;
+    color: var(--color-white);
+    display: inline-block;
+  }
+  .what-is-your-norfk-level {
+    top: 0;
+    width: 100%;
+    text-align: center;
+    font-size: var(--font-size-3xl);
+    font-weight: 400;
+    font-family: inherit;
+  }
+  .we-will-create-a-course-suited {
+    top: calc(50% - 147px);
+    left: calc(50% - 242.5px);
+    font-size: var(--font-size-2xs);
+    font-family: var(--font-open-sans);
+    width: 485px;
+    height: 86px;
+  }
+  .btn-box-div3 {
+    position: absolute;
+    top: 7px;
+    left: calc(50% - 166px);
+    border-radius: var(--br-md);
+    background-color: var(--color-white);
+    width: 332px;
+    height: 73.33px;
+  }
+  .beginner-div {
+    position: absolute;
+    top: 0;
+    left: calc(50% - 62px);
+    line-height: 86px;
+    display: inline-block;
+  }
+  .btn-a1,
+  .btn-box-div4 {
+    position: absolute;
+    width: 332px;
+  }
+  .btn-a1 {
+    text-decoration: none;
+    top: 130px;
+    left: calc(50% - 160.5px);
+    height: 86px;
+    text-align: center;
+    color: inherit;
+  }
+  .btn-box-div4 {
+    top: 6px;
+    left: calc(50% - 166px);
+    border-radius: var(--br-md);
+    background-color: var(--color-white);
+    height: 73.33px;
+  }
+  .more-advanced-div {
+    position: absolute;
+    top: 0;
+    left: calc(50% - 99px);
+    line-height: 86px;
+    display: inline-block;
+  }
+  .btn-a2 {
+    text-decoration: none;
+    position: absolute;
+    top: 231px;
+    left: calc(50% - 160.5px);
+    width: 332px;
+    height: 86px;
+    color: inherit;
+  }
+  .im-not-sure1 {
+    position: absolute;
+    top: 0;
+    left: calc(50% - 82px);
+    line-height: 86px;
+    display: inline-block;
+  }
+  .btn-a3 {
+    text-decoration: none;
+    position: absolute;
+    top: 332px;
+    left: calc(50% - 160.5px);
+    width: 332px;
+    height: 86px;
+    color: inherit;
+  }
+  .body-main {
+    position: absolute;
+    top: 140px;
+    left: calc(50% - 248px);
+    width: 485px;
+    height: 418px;
+    text-align: left;
+    font-size: var(--font-size-2xl);
+    color: var(--color-teal-200);
+    font-family: var(--font-amatic-sc);
+  }
+  .level-select-div {
+    position: relative;
+    background-color: var(--color-teal-200);
+    width: 100%;
+    min-height: 100vh;
+    overflow: hidden;
+    text-align: left;
+    font-size: var(--font-size-2xs);
+    color: var(--color-teal-100);
+    font-family: var(--font-open-sans);
+  }
+  

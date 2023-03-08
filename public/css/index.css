@@ -91,14 +91,14 @@
     width: 275.92px;
     height: 198px;
   }
-  .whatsapp-image-2022-09-18-at-1-icon {
+  .home-page-div .whatsapp-image-2022-09-18-at-1-icon {
     position: relative;
     width: 53px;
     height: 48px;
     flex-shrink: 0;
     object-fit: cover;
   }
-  .company-logo-div {
+  .home-page-div .company-logo-div {
     position: absolute;
     top: 5px;
     left: 0;
@@ -107,8 +107,12 @@
     align-items: flex-start;
     justify-content: flex-start;
   }
-  .company-logo-div img {
-    max-width: 40px;
+  .home-page-div .company-logo-div img {
+    top: 0;
+    left: 0;
+    max-width: 53px;
+    width: 53px;
+    height: auto;
   }
   .login-btn-div {
     position: absolute;
@@ -501,7 +505,7 @@
     display: inline-block;
   }
   .description-div1 {
-    top: 62px;
+    top: 66px;
     width: 295.33px;
     height: 84px;
   }

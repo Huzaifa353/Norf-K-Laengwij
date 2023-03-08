@@ -1,0 +1,152 @@
+body {
+    margin: 0;
+    line-height: normal;
+  }
+  
+  .start-now-its-100-free,
+  .your-tailored-course-is-ready {
+    margin: 0;
+    position: absolute;
+    line-height: 86px;
+    font-weight: 400;
+    text-align: left;
+    display: inline-block;
+  }
+  .your-tailored-course-is-ready {
+    top: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    font-size: var(--font-size-4xl);
+    font-family: var(--font-amatic-sc);
+  }
+  .start-now-its-100-free {
+    top: 63px;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+    font-family: inherit;
+  }
+  .level-p {
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-top: 113px;
+  }
+  .beginner-p {
+    margin: 0;
+    margin-top: 10px
+  }
+  .level-beginner-p {
+    margin: 0;
+    position: absolute;
+    top: 111px;
+    left: calc(50% - 32px);
+    line-height: 30px;
+    display: inline-block;
+  }
+  .btn-box-div,
+  .icon,
+  .level-div {
+    position: absolute;
+    top: 0;
+    left: calc(50% - 50px);
+    width: 100px;
+    height: 100px;
+  }
+  .btn-box-div,
+  .level-div {
+    top: 149px;
+    left: calc(50% - 49px);
+    height: 171px;
+  }
+  .btn-box-div {
+    top: 0;
+    left: calc(50% - 150px);
+    border-radius: var(--br-lg);
+    background-color: var(--color-white);
+    width: 300px;
+    height: 62.79px;
+  }
+  .sign-up-with-facebook {
+    position: absolute;
+    top: 16px;
+    left: calc(50% - 72px);
+    line-height: 30px;
+    display: inline-block;
+  }
+  .facebook-icon {
+    position: absolute;
+    top: 19px;
+    left: calc(50% - 101px);
+    width: 14px;
+    height: 23.33px;
+    overflow: hidden;
+  }
+  .facebook-btn {
+    text-decoration: none;
+    position: absolute;
+    top: 366px;
+    left: calc(50% - 149px);
+    width: 300px;
+    height: 62.79px;
+    font-size: var(--font-size-sm);
+    color: var(--color-indigo);
+  }
+  .sign-up-with-google {
+    position: absolute;
+    top: 17px;
+    left: calc(50% - 57px);
+    line-height: 30px;
+    display: inline-block;
+  }
+  .google-icon {
+    position: absolute;
+    top: 18px;
+    left: calc(50% - 108px);
+    width: 28px;
+    height: 28px;
+    overflow: hidden;
+  }
+  .google-btn-a {
+    text-decoration: none;
+    position: absolute;
+    top: 450px;
+    left: calc(50% - 149px);
+    width: 300px;
+    height: 62.79px;
+    font-size: var(--font-size-sm);
+    color: red;
+  }
+  .by-signing-up-for-norfk-you-a {
+    margin: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    line-height: 30px;
+    font-weight: 600;
+    display: inline-block;
+    margin-top: 533px;
+  }
+  .body-div {
+    position: absolute;
+    top: 77px;
+    left: calc(50% - 227px);
+    width: 454px;
+    height: 594px;
+    text-align: center;
+    font-size: var(--font-size-xs);
+    color: var(--color-white);
+  }
+  .ready-div {
+    position: relative;
+    background-color: var(--color-teal-200);
+    width: 100%;
+    height: 730px;
+    overflow: hidden;
+    text-align: left;
+    font-size: var(--font-size-2xs);
+    color: var(--color-teal-100);
+    font-family: var(--font-open-sans);
+  }
+  

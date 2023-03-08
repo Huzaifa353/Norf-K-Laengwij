@@ -1,0 +1,282 @@
+body {
+    margin: 0;
+    line-height: normal;
+  }
+  
+  .login-card-bg-div {
+    position: absolute;
+    top: 0;
+    left: calc(50% - 195px);
+    border-radius: var(--br-md);
+    background-color: var(--color-white);
+    width: 390px;
+    height: 585px;
+  }
+  .description-div2,
+  .title-div1 {
+    position: absolute;
+    top: 0;
+    left: calc(50% - 158.88px);
+    line-height: 57px;
+    display: inline-block;
+  }
+  .description-div2 {
+    top: 65px;
+    left: calc(50% - 159.78px);
+    font-size: var(--font-size-2xs);
+    line-height: 28px;
+    font-weight: 600;
+    font-family: var(--font-open-sans);
+    color: var(--color-gray-500);
+    width: 319.56px;
+  }
+  .login-head-div {
+    position: absolute;
+    top: 28px;
+    left: calc(50% - 171.91px);
+    width: 319.56px;
+    height: 93px;
+    font-size: 40px;
+    font-family: var(--font-amatic-sc);
+  }
+  .input-email {
+    border: 1px solid var(--color-gray-300);
+    background-color: transparent;
+    position: absolute;
+    top: 63px;
+    left: calc(50% - 171.96px);
+    border-radius: var(--br-sm);
+    box-sizing: border-box;
+    width: 343.92px;
+    height: 47px;
+  }
+  .label-email {
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    left: calc(50% - 171.92px);
+    font-size: var(--font-size-2xs);
+    line-height: 86px;
+    font-weight: 700;
+    font-family: var(--font-open-sans);
+    color: var(--color-gray-500);
+    text-align: left;
+    display: inline-block;
+    width: 109.9px;
+  }
+  .email-div {
+    position: absolute;
+    top: 0;
+    left: calc(50% - 171.98px);
+    width: 343.92px;
+    height: 110px;
+  }
+  .input-password,
+  .label-password {
+    position: absolute;
+    left: calc(50% - 171.96px);
+  }
+  .input-password {
+    border: 1px solid var(--color-gray-300);
+    background-color: transparent;
+    top: 62px;
+    border-radius: var(--br-sm);
+    box-sizing: border-box;
+    width: 343.92px;
+    height: 47px;
+  }
+  .label-password {
+    cursor: pointer;
+    top: 0;
+    font-size: var(--font-size-2xs);
+    line-height: 86px;
+    font-weight: 700;
+    font-family: var(--font-open-sans);
+    color: var(--color-gray-500);
+    text-align: left;
+    display: inline-block;
+    width: 74.82px;
+  }
+  .password-div {
+    position: absolute;
+    top: 103px;
+    left: calc(50% - 171.98px);
+    width: 343.92px;
+    height: 109px;
+  }
+  .input-remember-me-div {
+    position: absolute;
+    top: 31px;
+    left: calc(50% - 75.99px);
+    border: 1px solid var(--color-gray-300);
+    box-sizing: border-box;
+    width: 16px;
+    height: 16px;
+  }
+  .label-remember-me {
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    left: calc(50% - 48.75px);
+    font-size: var(--font-size-2xs);
+    line-height: 86px;
+    font-weight: 700;
+    font-family: var(--font-open-sans);
+    color: var(--color-gray-500);
+    text-align: left;
+    display: inline-block;
+    width: 124.74px;
+  }
+  .login-btn-div1,
+  .remember-me-div {
+    position: absolute;
+    top: 199px;
+    left: calc(50% - 171.98px);
+    width: 151.98px;
+    height: 86px;
+  }
+  .login-btn {
+    position: absolute;
+    top: 285px;
+    left: calc(50% - 171.96px);
+    width: 343.92px;
+    height: 50px;
+    font-size: var(--font-size-2xs);
+    line-height: 51px;
+    font-weight: 600;
+    font-family: var(--font-open-sans);
+    color: var(--color-white);
+    border-radius: var(--br-sm);
+    background-color: var(--color-teal-100);
+    border:0;
+    cursor: pointer;
+  }
+  .login-btn:hover {
+    background-color: #0098bf;
+  }
+  .login-details-form {
+    position: absolute;
+    top: 112px;
+    left: calc(50% - 172px);
+    width: 343.96px;
+    height: 355px;
+  }
+  .login-details-form input {
+    padding: 0 10px;
+    outline: none;
+  }
+  .login-details-form input:focus {
+    border: 2px solid var(--color-teal);
+  }
+  .forgot-password {
+    text-decoration: none;
+    position: absolute;
+    top: 340px;
+    left: calc(50% - -49px);
+    line-height: 28px;
+    font-weight: 700;
+    color: inherit;
+    display: inline-block;
+  }
+  .forgot-password:hover{
+    opacity: 66%;
+  }
+  .google-login-div {
+    position: absolute;
+    top: 18.64px;
+    left: calc(50% - 171.96px);
+    border-radius: var(--br-sm);
+    border: 1px solid var(--color-gray-300);
+    box-sizing: border-box;
+    width: 343.92px;
+    height: 46.4px;
+  }
+  .google-login-div:hover {
+    background-color: #f3f3f3;
+  }
+  .continue-with-google {
+    position: absolute;
+    top: 0;
+    left: calc(50% - 54.5px);
+    line-height: 86px;
+    font-weight: 600;
+    display: inline-block;
+    width: 146px;
+    height: 57px;
+  }
+  .flat-color-iconsgoogle {
+    position: absolute;
+    top: 31.9px;
+    left: calc(50% - 91.5px);
+    width: 21px;
+    height: 21.21px;
+    overflow: hidden;
+  }
+  .google-text-div {
+    position: absolute;
+    top: 0;
+    left: calc(50% - 92px);
+    width: 183px;
+    height: 57px;
+  }
+  .facebook-login-div,
+  .google-a {
+    position: absolute;
+    width: 343.92px;
+  }
+  .google-a {
+    text-decoration: none;
+    top: 442px;
+    left: calc(50% - 172px);
+    height: 65.03px;
+    color: var(--color-gray-300);
+  }
+  .facebook-login-div {
+    top: 19.63px;
+    left: calc(50% - 171.96px);
+    border-radius: var(--br-sm);
+    background-color: var(--color-indigo);
+    height: 46.4px;
+  }
+  .facebook-login-div:hover {
+    background-color: #0b3f9a;
+  }
+  .continue-with-facebook {
+    position: absolute;
+    top: 0;
+    left: calc(50% - 80px);
+    line-height: 86px;
+    font-weight: 600;
+    display: inline-block;
+    width: 161px;
+    height: 57px;
+  }
+  .facebook {
+    text-decoration: none;
+    position: absolute;
+    top: 503px;
+    left: calc(50% - 171px);
+    width: 343.92px;
+    height: 66.02px;
+    text-align: center;
+    color: var(--color-white);
+  }
+  .login-card-div {
+    position: absolute;
+    top: 113px;
+    left: calc(50% - 195px);
+    width: 390px;
+    height: 585px;
+  }
+  .login-div {
+    position: relative;
+    background-color: var(--color-teal-200);
+    width: 100%;
+    height: 751px;
+    overflow: hidden;
+    text-align: left;
+    font-size: var(--font-size-2xs);
+    color: var(--color-teal-100);
+    font-family: var(--font-open-sans);
+  }
+  

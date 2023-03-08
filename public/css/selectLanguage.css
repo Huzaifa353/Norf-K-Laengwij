@@ -1,0 +1,65 @@
+body {
+    margin: 0;
+    line-height: normal;
+  }
+  
+  
+  .what-language-do-you-want-to-l {
+    margin: 0;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    font-size: inherit;
+    line-height: 57px;
+    font-weight: 400;
+    font-family: inherit;
+    display: inline-block;
+  }
+  .btn-box-div6 {
+    position: absolute;
+    top: 0;
+    left: calc(50% - 150px);
+    border-radius: var(--br-md);
+    background-color: var(--color-white);
+    width: 300px;
+    height: 82.5px;
+  }
+  .norfk-div1 {
+    position: absolute;
+    top: 13px;
+    left: calc(50% - 43px);
+    line-height: 57px;
+    display: inline-block;
+  }
+  .btn-a4 {
+    text-decoration: none;
+    position: absolute;
+    top: 99px;
+    left: calc(50% - 149.5px);
+    width: 300px;
+    height: 82.5px;
+    color: var(--color-teal-200);
+  }
+  .body-main1 {
+    position: absolute;
+    top: 228px;
+    left: calc(50% - 250px);
+    width: 499px;
+    height: 181.5px;
+    text-align: left;
+    font-size: var(--font-size-xl);
+    color: var(--color-white);
+    font-family: var(--font-amatic-sc);
+  }
+  .language-select-div {
+    position: relative;
+    background-color: var(--color-teal-200);
+    width: 100%;
+    min-height: 100vh;
+    overflow: hidden;
+    text-align: left;
+    font-size: var(--font-size-2xs);
+    color: var(--color-teal-100);
+    font-family: var(--font-open-sans);
+  }
+  

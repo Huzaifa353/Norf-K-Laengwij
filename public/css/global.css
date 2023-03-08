@@ -47,3 +47,79 @@
     opacity: 90% !important;
   }
   
+  .bg-img-icon,
+  .bg-mask-div {
+    position: absolute;
+    left: 4.73%;
+  }
+  .bg-img-icon {
+    width: 100%;
+    top: calc(50% - 77.5px);
+    right: -4.73%;
+    max-width: 100%;
+    overflow: hidden;
+    height: 1406.31px;
+    object-fit: cover;
+  }
+  .bg-mask-div {
+    height: 55.36%;
+    width: 90.91%;
+    top: 44.64%;
+    right: 4.36%;
+    bottom: 0;
+    background-color: var(--color-teal-200);
+    opacity: 0.8;
+  }
+  .bg-div {
+    position: absolute;
+    width: 110%;
+    top: calc(50% - 1020.5px);
+    right: -4.8%;
+    left: -5.2%;
+    height: 1445px;
+  }
+  .company-logo,
+  .logo-img-icon {
+    position: absolute;
+    width: 40px;
+    height: 38px;
+  }
+  .logo-img-icon {
+    top: 0;
+    left: 0;
+    object-fit: cover;
+  }
+  .company-logo {
+    text-decoration: none;
+    top: 36px;
+    left: 64px;
+  }
+  .sign-up-box-div {
+    position: absolute;
+    top: 12.82px;
+    right: 0;
+    border-radius: var(--br-lg);
+    background-color: var(--color-white);
+    width: 100px;
+    height: 32.94px;
+  }
+  .sign-up-a,
+  .sign-up-div {
+    position: absolute;
+    height: 53px;
+  }
+  .sign-up-div {
+    top: 0;
+    right: 25px;
+    line-height: 57px;
+    font-weight: 600;
+    display: inline-block;
+    width: 51px;
+  }
+  .sign-up-a {
+    text-decoration: none;
+    top: 21px;
+    right: 64px;
+    width: 100px;
+    color: inherit;
+  }
